@@ -1,5 +1,7 @@
 import React from "react";
 import img from "../../../img/nows.jpg";
+import { Typewriter } from "react-simple-typewriter";
+
 const Banner = () => {
   return (
     <div>
@@ -13,14 +15,27 @@ const Banner = () => {
             </div>
             <div className="col-md-6 mt-5 mt-md-0 order-md-first">
               <div className="home-text">
-                <p className="text-muted mb-1">Hellow I'm</p>
-                <h1 className="text-danger text-uppercase fs-1 fw-bold">
-                  Web Developer
+                <h4 className="text-muted mb-1">Hello I'm</h4>
+                <h2 className="fs-4">MD AKTHER HOSEN</h2>
+                <h1 className="text-uppercase fs-1 fw-bold">
+                  I'm a
+                  <span className="text-danger mx-2">
+                    <Typewriter
+                      loop
+                      cursor
+                      cursorStyle="|"
+                      typeSpeed={150}
+                      deleteSpeed={50}
+                      delaySpeed={1000}
+                      words={["Student", "Developer"]}
+                    />
+                  </span>
                 </h1>
-                <h2 className="fs-4">Akther Hosen</h2>
+
                 <p className="mt-4 text-muted">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae, nobis necessitatibus. Facere magnam fugit ducimus.
+                  I am a front-end developer building web applications. I
+                  specialize in JavaScript (React), Express, MongoDB, Strong
+                  collaboration, and problem-solving.
                 </p>
                 <a href="#portfolio" className="btn btn-danger px-3 mt-3">
                   My Work

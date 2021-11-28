@@ -6,6 +6,7 @@ import Navigation from "../Navigation/Navigation";
 import Project from "../Project/Project";
 import Service from "../Service/Service";
 import Testimonial from "../Testimonial/Testimonial";
+import Timeline from "../Timeline/Timeline";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Navigation />
       <Banner />
       <About />
+      <Timeline />
       <Service />
       <Project />
       <Testimonial />

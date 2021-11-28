@@ -51,16 +51,16 @@ const About = () => {
                   </a>
                   <div className="social-link">
                     <a href="#" className="text-dark me-2">
-                      <i className="fab fa-facebook"></i>
+                      <i className="fab fa-facebook fs-5"></i>
                     </a>
                     <a href="#" className="text-dark me-2">
-                      <i className="fab fa-twitter"></i>
+                      <i className="fab fa-twitter fs-5"></i>
                     </a>
                     <a href="#" className="text-dark me-2">
-                      <i className="fab fa-instagram"></i>
+                      <i className="fab fa-instagram fs-5"></i>
                     </a>
                     <a href="#" className="text-dark me-2">
-                      <i className="fab fa-linkedin-in"></i>
+                      <i className="fab fa-linkedin-in fs-5"></i>
                     </a>
                   </div>
                 </div>
