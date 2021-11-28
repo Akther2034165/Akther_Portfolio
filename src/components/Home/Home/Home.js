@@ -2,6 +2,7 @@ import React from "react";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import Navigation from "../Navigation/Navigation";
 import Project from "../Project/Project";
 import Service from "../Service/Service";
@@ -19,6 +20,7 @@ const Home = () => {
       <Project />
       <Testimonial />
       <Contact />
+      <Footer />
     </div>
   );
 };

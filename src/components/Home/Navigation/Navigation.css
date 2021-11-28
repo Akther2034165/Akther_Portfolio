@@ -4,7 +4,7 @@ Nav a {
   color: black;
   position: relative;
 }
-a::before {
+Nav a::before {
   content: "";
   position: absolute;
   width: 0%;
@@ -14,7 +14,7 @@ a::before {
   bottom: 0;
   transition: all 250ms ease-in-out;
 }
-a::after {
+Nav a::after {
   content: "";
   position: absolute;
   width: 0%;
@@ -23,8 +23,8 @@ a::after {
   left: 50%;
   bottom: 0;
 }
-a:hover::before,
-a:hover::after {
+Nav a:hover::before,
+Nav a:hover::after {
   width: 100%;
   left: 0;
 }

@@ -10,16 +10,16 @@ const Timeline = () => {
             <div className="timeline-dot"></div>
             <div className="timeline-date">2020-present</div>
             <div className="timeline-content">
-              <h3>Bsc. in Computer Science & Engineering</h3>
-              <p>BGC TRUST UNIVERSITY BANGLADESH</p>
+              <h3>BGC Trust University Bangladesh</h3>
+              <p>BSc. in Computer Science & Engineering</p>
             </div>
           </div>
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-date">2021-present</div>
             <div className="timeline-content">
-              <h3>Complete Web Development</h3>
-              <p>Programming Hero</p>
+              <h3>Programming Hero</h3>
+              <p>Complete Web Development</p>
             </div>
           </div>
           <div className="timeline-item">

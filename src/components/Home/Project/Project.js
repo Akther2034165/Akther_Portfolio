@@ -3,12 +3,12 @@ import img from "../../../img/nows.jpg";
 const Project = () => {
   return (
     <div>
-      <section className="portfolio py-5 text-center" id="portfolio">
+      <section className="portfolio py-5 text-center" id="project">
         <div className="container-lg py-4">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="section-title text-center">
-                <h2 className="fw-bold mb-4">Latest Works</h2>
+                <h2 className="fw-bold mb-4">LATEST WORK....</h2>
               </div>
             </div>
           </div>

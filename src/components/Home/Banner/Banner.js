@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../img/nows.jpg";
+import img from "../../../img/new.png";
 import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
@@ -8,9 +8,14 @@ const Banner = () => {
       <section className="home py-4" id="home">
         <div className="container-lg">
           <div className="row  min-vh-100 align-content-center">
-            <div className="col-md-6 mt-5 mt-md-0">
+            <div className="col-md-6 mt-md-0">
               <div className="home-img text-center">
-                <img src={img} className="rounded-circle mw-100" alt="" />
+                <img
+                  src={img}
+                  style={{ width: "75%" }}
+                  className="mw-100"
+                  alt=""
+                />
               </div>
             </div>
             <div className="col-md-6 mt-5 mt-md-0 order-md-first">
@@ -37,8 +42,11 @@ const Banner = () => {
                   specialize in JavaScript (React), Express, MongoDB, Strong
                   collaboration, and problem-solving.
                 </p>
-                <a href="#portfolio" className="btn btn-danger px-3 mt-3">
-                  My Work
+                <a
+                  href="https://drive.google.com/file/d/1-U-i7emUvTF95RMEJAoSmvUzHpz0BSxt/view?usp=sharing"
+                  className="btn btn-danger px-3 mt-3"
+                >
+                  DOWNLOAD RESUME
                 </a>
               </div>
             </div>

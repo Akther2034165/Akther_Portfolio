@@ -1,5 +1,5 @@
 import React from "react";
-
+import imgs from "../../../img/akther.jpg";
 const About = () => {
   return (
     <div>
@@ -15,51 +15,47 @@ const About = () => {
           <div className="row">
             <div className="col-md-6">
               <div className="about-text">
-                <h3 className="fs-4 mb-3 ">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatem, nesciunt.
+                {/* <h3 className="fs-4 mb-3 ">
+                  I am a front-end developer building web applications.
                 </h3>
                 <p className="text-muted">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-                  odit dolorum illo aspernatur neque iure.
-                </p>
+                  I specialize in JavaScript (React), Express, MongoDB, Strong
+                  collaboration, and problem-solving.
+                </p> */}
+                <img
+                  src={imgs}
+                  style={{ width: "55%", borderRadius: "15px" }}
+                  alt=""
+                />
               </div>
-              <div className="row text-center text-uppercase my-3">
-                <div className="col-sm-4">
-                  <div className="fact-item">
-                    <h4 className="fs-1 fw-bold">100</h4>
-                    <p className="text-muted">Project Completed</p>
-                  </div>
-                </div>
-                <div className="col-sm-4">
-                  <div className="fact-item">
-                    <h4 className="fs-1 fw-bold">100</h4>
-                    <p className="text-muted">Happy Client</p>
-                  </div>
-                </div>
-                <div className="col-sm-4">
-                  <div className="fact-item">
-                    <h4 className="fs-1 fw-bold">95</h4>
-                    <p className="text-muted">Positive reviews</p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
+              <div className="row mt-3">
                 <div className="col-lg-12 d-flex align-items-center">
-                  <a href="#" className="btn px-3 btn-danger me-5">
-                    Download CV
+                  <a href="#contact" className="btn px-4 btn-danger me-5">
+                    HIRE ME
                   </a>
                   <div className="social-link">
-                    <a href="#" className="text-dark me-2">
+                    <a
+                      href="https://web.facebook.com/nirjhor.nowshad/"
+                      className="text-dark me-3"
+                    >
                       <i className="fab fa-facebook fs-5"></i>
                     </a>
-                    <a href="#" className="text-dark me-2">
-                      <i className="fab fa-twitter fs-5"></i>
+                    <a
+                      href="https://github.com/akther2034165/"
+                      className="text-dark me-3"
+                    >
+                      <i className="fab fa-github fs-5"></i>
                     </a>
-                    <a href="#" className="text-dark me-2">
-                      <i className="fab fa-instagram fs-5"></i>
+                    <a
+                      href="https://dev.aktherhosen@gmail.com"
+                      className="text-dark me-3"
+                    >
+                      <i class="fas fa-envelope"></i>
                     </a>
-                    <a href="#" className="text-dark me-2">
+                    <a
+                      href="https://www.linkedin.com/in/md-akther-hosen-b1057a216/"
+                      className="text-dark me-3"
+                    >
                       <i className="fab fa-linkedin-in fs-5"></i>
                     </a>
                   </div>
@@ -106,8 +102,21 @@ const About = () => {
                   ></div>
                 </div>
               </div>
-              <div className="skill-item">
+              <div className="skill-item mb-4">
                 <h3 className="fs-6">BOOTSTRAP</h3>
+                <div class="progress" style={{ height: "5px" }}>
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style={{ width: "80%" }}
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div className="skill-item">
+                <h3 className="fs-6">REACT</h3>
                 <div class="progress" style={{ height: "5px" }}>
                   <div
                     class="progress-bar bg-danger"
