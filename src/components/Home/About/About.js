@@ -8,25 +8,29 @@ const About = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="section-title text-center">
-                <h2 className="fw-bold mb-4">About Me</h2>
+                <h2 className="fw-bold mb-4">ABOUT ME</h2>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-md-6">
-              <div className="about-text">
-                {/* <h3 className="fs-4 mb-3 ">
-                  I am a front-end developer building web applications.
-                </h3>
-                <p className="text-muted">
-                  I specialize in JavaScript (React), Express, MongoDB, Strong
-                  collaboration, and problem-solving.
-                </p> */}
+              <div className="about-text d-flex">
                 <img
                   src={imgs}
-                  style={{ width: "55%", borderRadius: "15px" }}
+                  style={{
+                    width: "40%",
+                    borderRadius: "15px",
+                  }}
                   alt=""
                 />
+                <div>
+                  <h5 className="mx-3 mt-3">Name : Akther Hosen</h5>
+                  <h5 className="mx-3 mt-3">Age : 21 years</h5>
+                  <p className="mx-3 mt-3 text-muted">
+                    I specialize in JavaScript (React), Express, MongoDB, Strong
+                    collaboration, and problem-solving.
+                  </p>
+                </div>
               </div>
               <div className="row mt-3">
                 <div className="col-lg-12 d-flex align-items-center">
@@ -63,7 +67,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-md-6 mt-5 mt-md-0">
-              <div className="skill-item mb-4">
+              <div className="skill-item mb-4 ">
                 <h3 className="fs-6">HTML</h3>
                 <div class="progress" style={{ height: "5px" }}>
                   <div

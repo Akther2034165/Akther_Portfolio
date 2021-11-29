@@ -20,7 +20,7 @@ const Banner = () => {
             </div>
             <div className="col-md-6 mt-5 mt-md-0 order-md-first">
               <div className="home-text">
-                <h4 className="text-muted mb-1">Hello I'm</h4>
+                <h4 className="text-muted mb-1">HI I'm</h4>
                 <h2 className="fs-4">MD AKTHER HOSEN</h2>
                 <h1 className="text-uppercase fs-1 fw-bold">
                   I'm a
@@ -32,7 +32,7 @@ const Banner = () => {
                       typeSpeed={150}
                       deleteSpeed={50}
                       delaySpeed={1000}
-                      words={["Student", "Developer"]}
+                      words={["Student", "Front-End Developer"]}
                     />
                   </span>
                 </h1>
@@ -46,7 +46,7 @@ const Banner = () => {
                   href="https://drive.google.com/file/d/1-U-i7emUvTF95RMEJAoSmvUzHpz0BSxt/view?usp=sharing"
                   className="btn btn-danger px-3 mt-3"
                 >
-                  DOWNLOAD RESUME
+                  <i class="fas fa-cloud-download-alt"></i> DOWNLOAD RESUME
                 </a>
               </div>
             </div>

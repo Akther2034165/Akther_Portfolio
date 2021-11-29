@@ -4,8 +4,7 @@ import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Navigation from "../Navigation/Navigation";
-import Project from "../Project/Project";
-import Service from "../Service/Service";
+import Projects from "../Projects/Projects";
 import Testimonial from "../Testimonial/Testimonial";
 import Timeline from "../Timeline/Timeline";
 
@@ -16,8 +15,7 @@ const Home = () => {
       <Banner />
       <About />
       <Timeline />
-      <Service />
-      <Project />
+      <Projects />
       <Testimonial />
       <Contact />
       <Footer />
