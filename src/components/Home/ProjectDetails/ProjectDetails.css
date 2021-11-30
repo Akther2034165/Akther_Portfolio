@@ -1,0 +1,46 @@
+.project-details {
+  margin-left: 40px;
+}
+
+.desBtn {
+  background-color: rgb(209, 95, 95);
+  color: #fff;
+  transition: 0.4s;
+}
+
+.desBtn:hover {
+  background-color: rgb(209, 95, 95);
+  color: #fff;
+}
+
+.description p {
+  font-size: 18px;
+}
+
+.description .fa-check {
+  color: black;
+}
+
+.techBtn {
+  background-color: rgb(209, 95, 95);
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 6px 10px 65px 0;
+}
+
+.techBtn:hover {
+  color: #fff;
+}
+
+.techBtn:focus {
+  border: none;
+  box-shadow: none;
+  cursor: text;
+}
+
+/* @media only screen and (max-width: 575px) {
+  .project-details {
+    margin: 0;
+  }
+} */

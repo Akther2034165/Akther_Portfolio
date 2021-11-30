@@ -2,8 +2,8 @@
   width: 300px;
 }
 .cardImg {
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 100%;
 }
 .pp span {
   background-color: black;

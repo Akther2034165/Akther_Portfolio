@@ -1,10 +1,10 @@
 import React from "react";
 import About from "../About/About";
+import AllProjects from "../AllProjects/AllProjects";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Navigation from "../Navigation/Navigation";
-import Projects from "../Projects/Projects";
 import Testimonial from "../Testimonial/Testimonial";
 import Timeline from "../Timeline/Timeline";
 
@@ -15,7 +15,7 @@ const Home = () => {
       <Banner />
       <About />
       <Timeline />
-      <Projects />
+      <AllProjects />
       <Testimonial />
       <Contact />
       <Footer />

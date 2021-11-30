@@ -24,9 +24,12 @@ const About = () => {
                   alt=""
                 />
                 <div>
-                  <h5 className="mx-3 mt-3">Name : Akther Hosen</h5>
+                  <h5 className="mx-3 mt-3">Name : MD. Akther Hosen</h5>
                   <h5 className="mx-3 mt-3">Age : 21 years</h5>
                   <p className="mx-3 mt-3 text-muted">
+                    A passionate Front-End Developer From Bangladesh.
+                  </p>
+                  <p className="mx-3 mt-1 text-muted">
                     I specialize in JavaScript (React), Express, MongoDB, Strong
                     collaboration, and problem-solving.
                   </p>
